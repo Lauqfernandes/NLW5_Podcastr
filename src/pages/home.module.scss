@@ -115,6 +115,10 @@
 
   table{
     width: 100%;
+    background: var(--white);
+    border: 1px solid var(--grey-100);
+    padding: 1.25rem;
+    border-radius: 1.5rem;
 
     td, th{
       padding: 0.75rem 1rem;
@@ -145,10 +149,10 @@
         line-height: 1.4rem;
         font-size: 1rem;
 
-        a:hover{
-          text-decoration: underline;
+        &:hover{
+            text-decoration: underline;
         }
-      }
+    }
 
       button {
         right: 2rem;
